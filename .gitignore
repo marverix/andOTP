@@ -1,11 +1,18 @@
+# IDE
 *.iml
-.gradle
+.idea/
+.vscode/
+
+# OS files
+.DS_Store/
+
+# Build
+.gradle/
+build/
+
+# Local config files
 crowdin.properties
-/local.properties
-/.idea/workspace.xml
-/.idea/libraries
-/.idea/markdown-navigator*
-/.idea/caches
-.DS_Store
-/build
-/captures
+local.properties
+
+# Other
+captures/
